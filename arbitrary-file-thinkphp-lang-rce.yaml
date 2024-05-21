@@ -24,6 +24,7 @@ requests:
   - method: GET
     path:
       - "{{BaseURL}}/public/index.php?lang=../../../../../../../../tmp/exp"
+      - "{{BaseURL}}/index.php?lang=../../../../../../../../tmp/exp"
     
     matchers-condition: and
     matchers:
